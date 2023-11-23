@@ -128,7 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRONJOBS = [
 
-    ("*/1 * * * *", "django.core.management.call_command", ["update_records"]),
+    ("*/5 * * * *", "django.core.management.call_command", ["update_records"]),
 ]
 
 LOGS_DIR = os.path.join(BASE_DIR, 'logs')

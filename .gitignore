@@ -1,12 +1,7 @@
-__pycache__/
-first_app/__pycache__/
-first_project/__pycache__/
-*.pyc
-*.pyo
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 *$py.class
 
 # Django stuff:
@@ -31,6 +26,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-env/
 
-env/
+# Ignore Django migrations (if located inside a 'migrations' directory)
+**/migrations/*.py
+**/migrations/*.pyc
