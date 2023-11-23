@@ -1,0 +1,12 @@
+from django.db import models
+from datetime import datetime
+from django.utils import timezone
+# Create your models here.
+
+
+class Customer(models.Model):
+    name= models.CharField(max_length=255)
+    Time = models.DateTimeField()
+    is_utc = models.BooleanField()
+    is_pst=models.BooleanField()
+  
