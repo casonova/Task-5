@@ -27,6 +27,3 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Ignore Django migrations (if located inside a 'migrations' directory)
-**/migrations/*.py
-**/migrations/*.pyc
